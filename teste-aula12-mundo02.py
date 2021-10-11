@@ -1,7 +1,9 @@
  #Prática teorica aula 12 - Mundo 02 
 
 #Perguntando nome ao usuário: 
-nome = str(input("Qual seu nome? "))
+nome = str(input("Qual seu nome? ")).title()
+print(nome)
+nome_em_maiusculo = nome.capitalize()
 
 #Se, senão se, senão
 if nome == "Maria Clara":
